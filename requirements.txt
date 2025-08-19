@@ -1,0 +1,15 @@
+# core
+sentence-transformers>=2.2.2
+faiss-cpu          # or faiss-gpu if you have CUDA
+transformers>=4.30
+torch>=1.13
+streamlit>=1.33.0
+faiss-cpu==1.7.4
+sentence-transformers>=2.2.2
+transformers>=4.44.2
+huggingface_hub>=0.27.0
+numpy==1.26.4
+pdfplumber
+groq
+
+
