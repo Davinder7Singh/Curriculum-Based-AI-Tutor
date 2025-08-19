@@ -7,10 +7,10 @@ It combines semantic search (FAISS) with Groq’s LLaMA3 LLM to deliver curricul
 
 # Project Overview
 
--Answers student queries from NCERT Class 8 Science textbook
--Uses RAG pipeline for accurate and grounded answers
--Connects FAISS-based semantic search with Groq LLaMA3 LLM
--Provides source references for transparency
+- Answers student queries from NCERT Class 8 Science textbook
+- Uses RAG pipeline for accurate and grounded answers
+- Connects FAISS-based semantic search with Groq LLaMA3 LLM
+- Provides source references for transparency
 
 # Key Components
 
@@ -24,10 +24,10 @@ It combines semantic search (FAISS) with Groq’s LLaMA3 LLM to deliver curricul
 
 # Code & Implementation
 
--Notebook (ai tutor.ipynb)
+- Notebook (ai tutor.ipynb)
 Data cleaning, chunking, embeddings, FAISS index creation
 RAG pipeline assembly & evaluation scripts
--App (app.py)
+- App (app.py)
 Loads embeddings + index
 Runs retriever + Groq LLM
 Provides Streamlit-based interactive UI
