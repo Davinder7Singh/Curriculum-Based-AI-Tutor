@@ -14,12 +14,12 @@ It combines semantic search (FAISS) with Groq’s LLaMA3 LLM to deliver curricul
 
 # Key Components
 
--Data Prep: PDF → JSONL → Passages
--Embeddings: all-MiniLM-L6-v2 (Sentence-Transformers)
--Retriever: FAISS similarity search (L2 distance)
--LLM: Groq LLaMA3 (8B parameters)
--Interface: Streamlit single-page chatbot
--Evaluation: BLEU, ROUGE-L, BERTScore
+- Data Prep: PDF → JSONL → Passages
+- Embeddings: all-MiniLM-L6-v2 (Sentence-Transformers)
+- Retriever: FAISS similarity search (L2 distance)
+- LLM: Groq LLaMA3 (8B parameters)
+- Interface: Streamlit single-page chatbot
+- Evaluation: BLEU, ROUGE-L, BERTScore
 
 
 # Code & Implementation
